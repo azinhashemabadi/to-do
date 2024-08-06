@@ -1,0 +1,111 @@
+.add-input{
+    background-color: #EF5A6F;
+    border: 2px solid #e1ebfd;
+    border-radius: 50%;
+    box-shadow: 2px 4px 10px #723c13;
+    color: #e1ebfd;
+    font-size: 1.5rem;
+    height: 3.2rem;
+    margin-left: 1rem;
+    width: 3.2rem;
+    position: relative;
+}
+.input-button{
+    display: flex;
+    justify-content: center;
+}
+.todo-input {
+    align-self: center;
+    background-color: #e1ebfd;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    width: 40rem;
+    color: black;
+}
+.plus{
+    background-color: #EF5A6F;
+    margin-left: -0.6rem;
+    position: absolute;
+    bottom: 0.7rem;
+    right: 0.7rem;
+}
+.box{
+    position: relative;
+    border-style: none;
+    height: 30px;
+    width: 0px;
+    background: #e1ebfd;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    height: 5rem;
+    margin: 0 1rem 1rem 0;
+    padding: 1rem;
+    position: relative;
+    width: 12rem;
+    color: black;
+}
+.btns{
+    background-color: #e1ebfd;
+    position: absolute;
+    top: 75px;
+    left: 6.5rem;
+    /* margin-left: 100px;
+    margin-top: 30px; */
+}
+.edit-input{
+    position: absolute;
+    align-self: center;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-radius: 5px;
+    max-height: 8rem;
+    min-width: 11rem;
+    padding: .5rem 1rem;
+    color: black;
+    bottom: 4rem;
+    right: 0.4rem;
+}
+.cards{
+    display: inline-block;
+    justify-content: center;
+}
+.show{
+    text-align: center;
+}
+.show_btn{
+    background: white;
+    color: black;
+    border-radius: 20px;
+    height: 2rem;
+    font-size: 1rem;
+    margin: 0.3rem;
+    font-family: "RocknRoll One", sans-serif;
+}
+#active{
+    width: 5rem;
+}
+#completed{
+    width: 8rem;
+}
+#all{
+    width: 3rem;
+}
+.Input-css{
+    justify-content: center;
+}
+.todo{
+    display: flex;
+    justify-content: center;
+}
+/* .all-cards{
+    margin-left: 6%;
+    display: inline-block;
+} */
+.all-cards {
+    display: flex;
+    flex-wrap: wrap; /* This allows the cards to wrap to the next line if they overflow */
+    gap: 10px; /* Adds some space between the cards */
+    margin-left: 6%;
+  }
